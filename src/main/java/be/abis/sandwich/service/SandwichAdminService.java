@@ -1,6 +1,6 @@
 package be.abis.sandwich.service;
 
-import be.abis.sandwich.form.SandwichUpdatePriceRequestDTO;
+import dto.SandwichUpdatePriceRequestDTO;
 import be.abis.sandwich.model.Sandwich;
 import be.abis.sandwich.repository.SandwichRepository;
 import jakarta.transaction.Transactional;

@@ -1,4 +1,4 @@
-package be.abis.sandwich.form;
+package dto;
 
 public class SandwichUpdatePriceRequestDTO {
 

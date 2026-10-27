@@ -3,7 +3,9 @@ package be.abis.sandwich.model;
 import be.abis.sandwich.enumeration.BreadType;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
+import lombok.Data;
 
+@Data
 @Entity
 @Table(name = "sandwich_order_details")
 public class SandwichOrderDetail {

@@ -1,11 +1,13 @@
 package be.abis.sandwich.model;
 
 import jakarta.persistence.*;
+import lombok.Data;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+    @Data
     @Entity
     @Table(name = "sandwich_orders")
     public class SandwichOrder {

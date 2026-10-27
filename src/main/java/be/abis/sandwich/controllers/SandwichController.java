@@ -4,15 +4,12 @@ package be.abis.sandwich.controllers;
 import be.abis.sandwich.exception.PriceCanNotBeUpdatedException;
 import be.abis.sandwich.exception.SandwichAlreadyExistsException;
 import be.abis.sandwich.exception.SandwichCanNotBeDeletedException;
-import be.abis.sandwich.form.SandwichUpdatePriceRequestDTO;
-import be.abis.sandwich.model.Person;
+import dto.SandwichUpdatePriceRequestDTO;
 import be.abis.sandwich.model.Sandwich;
-import be.abis.sandwich.service.SandwichAdminService;
 import be.abis.sandwich.service.SandwichService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @RestController

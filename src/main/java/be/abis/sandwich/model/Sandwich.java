@@ -2,10 +2,12 @@ package be.abis.sandwich.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
+import lombok.Data;
 import org.springframework.data.repository.cdi.Eager;
 
 import java.util.Objects;
 
+@Data
 @Entity
 @Table(name = "sandwiches")
 public class Sandwich {
@@ -48,6 +50,8 @@ public class Sandwich {
         this.category = category;
         this.basePrice = basePrice;
     }
+
+
 
 
 
